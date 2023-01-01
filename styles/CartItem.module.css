@@ -1,0 +1,123 @@
+
+.gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    height: 362px;
+    width: 262px;
+  
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(153, 153, 153, 0.192);
+    
+  }
+
+.category{
+  font-size: 0.8rem;
+}
+
+.price{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.priceFlex{
+  margin-top: 30px;
+  display:'flex';
+  flex-Direction:'row'
+}
+
+  .line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btns{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .btn1{
+    background-color: rgba(64, 86, 161, 1);
+    color:white;
+    z-index: 10;
+    border:none;
+    border-radius: 2rem;
+    padding: 7px 15px;
+    font-size: 0.7rem;
+    position: absolute;
+    cursor: pointer;
+  }
+  .btn2{
+    background-color:rgba(245, 245, 247, 1);
+    border-radius: 2rem;
+    border:none;
+    padding: 7px 23px;
+    position: absolute;
+    left: 70px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .btn1:hover,
+  .btn1:active{
+    background-color: rgb(23, 35, 74);
+  }
+
+  .btn2 span:first-child{
+    cursor: pointer;
+  }
+
+  .btn2 span:last-child{
+    cursor: pointer;
+  }
+
+
+  .btn2 span:first-child:hover{
+    color: rgba(64, 86, 161, 1);
+  }
+
+  .btn2 span:last-child:hover{
+    color:rgba(64, 86, 161, 1)
+  }
+.cartBtn{
+  display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.cartBtn button{
+  background-color: rgba(0, 177, 119, 1);
+  border-radius: 2rem;
+  border:none;
+  padding: 7px 23px;
+  color: white;
+}
+
+.label{
+  background-color: rgb(255, 13, 0);
+  width: 40px;
+  height: 15px;
+  margin: 6px;
+  transform: skewX(145deg);
+  
+}
+
+
+.label p{
+  transform: skewX(35deg);
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.cart{
+    overflow-y: scroll;
+    height: 10rem;
+}
+
+.total{
+    text-align: end;
+    padding:0 30px;
+}
+
+.icon{
+text-align: end;
+padding: 3px;
+
+}
+
+.icon svg{
+    cursor: pointer;
+}

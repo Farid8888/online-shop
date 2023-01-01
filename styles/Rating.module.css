@@ -1,0 +1,30 @@
+.ratingArea {
+	overflow: hidden;
+	width: 115px;
+	margin: 0 auto;
+}
+.ratingArea > input {
+	display: none;
+}
+.ratingArea > label {
+	float: right;
+	width: 18px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 15px;
+	line-height: 20px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.ratingArea > label:before {
+	content: '★';
+}
+.ratingArea .lbl{
+	color: rgb(255, 123, 0);
+	text-shadow: 1px 1px #c60;
+}
+
+
+.rateArea > label:active {
+	position: relative;
+}

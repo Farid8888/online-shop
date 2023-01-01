@@ -1,0 +1,119 @@
+.aside{
+    width: 300px;
+    height: 110px;
+    padding: 20px;
+}
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.discount{
+    background-color:rgba(99, 107, 127, 1);
+    width: 150px;
+    height: 110px;
+}
+.disc{
+    background-color:rgba(245, 245, 247, 1);
+    width: 130px;
+    height: 110px;
+}
+
+.mainFlex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gridFlex{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    background-color: inherit;
+    padding: 10px;
+    gap: 20px;
+}
+.sideFlex{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.discountHeader{
+    background-color: rgba(255, 220, 56, 1);
+    width: 40px;
+    height: 15px;
+    margin: 6px;
+    transform: skewX(145deg);
+}
+
+
+.discountHeader p{
+    transform: skewX(35deg);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.innerFlex{
+    padding: 10px;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+    font-size: 0.8rem;
+}
+
+.btn{
+    margin-top: 10%;
+    background-color: inherit;
+    border-radius: 2rem;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2px 10px;
+}
+
+.btn.bl{
+    color: black;
+    border: 1px solid black;
+}
+
+.gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    height: 362px;
+    width: 232px;
+    text-align: center;
+  }
+
+ 
+  @media(max-width:390px){
+   
+    .gridFlex{
+        display: grid;
+        grid-template-columns: 40px;
+        background-color: inherit;
+        padding: 10px;
+        gap: 20px;
+    }
+  }
